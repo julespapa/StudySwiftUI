@@ -14,11 +14,11 @@ struct ContentView: View {
         
         TabView {
             
-            ViewLayout()
-                .tabItem { Text("ViewLayout") }
-            
             ChatView()
                 .tabItem { Text("Chat") }
+            
+            ViewLayout()
+                .tabItem { Text("ViewLayout") }
             
             Views()
                 .tabItem { Text("Views") }
@@ -30,6 +30,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(ChatViewModel(throttleTime: 1))
+            .environmentObject(ChatViewModel())
     }
 }
