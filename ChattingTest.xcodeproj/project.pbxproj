@@ -10,6 +10,7 @@
 		765C09EC2591CE66001209F8 /* ChatTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C09EB2591CE66001209F8 /* ChatTicker.swift */; };
 		765C09F42592FEDB001209F8 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C09F32592FEDB001209F8 /* ChatView.swift */; };
 		76BB9A0C2593095800612DDE /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB9A0B2593095800612DDE /* Views.swift */; };
+		76BB9A0F25930C0200612DDE /* ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB9A0E25930C0200612DDE /* ViewLayout.swift */; };
 		76D15170259188CD00814CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D1516F259188CD00814CB5 /* AppDelegate.swift */; };
 		76D15172259188CD00814CB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D15171259188CD00814CB5 /* SceneDelegate.swift */; };
 		76D15174259188CD00814CB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D15173259188CD00814CB5 /* ContentView.swift */; };
@@ -25,6 +26,7 @@
 		765C09EB2591CE66001209F8 /* ChatTicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTicker.swift; sourceTree = "<group>"; };
 		765C09F32592FEDB001209F8 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		76BB9A0B2593095800612DDE /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		76BB9A0E25930C0200612DDE /* ViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLayout.swift; sourceTree = "<group>"; };
 		76D1516C259188CD00814CB5 /* ChattingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChattingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D1516F259188CD00814CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76D15171259188CD00814CB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				76D1518A25919D2300814CB5 /* ChatUnitView.swift */,
 				765C09F32592FEDB001209F8 /* ChatView.swift */,
 				76BB9A0B2593095800612DDE /* Views.swift */,
+				76BB9A0E25930C0200612DDE /* ViewLayout.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76BB9A0F25930C0200612DDE /* ViewLayout.swift in Sources */,
 				76D1518825919D0500814CB5 /* ChatViewModel.swift in Sources */,
 				76D15170259188CD00814CB5 /* AppDelegate.swift in Sources */,
 				76D1518B25919D2300814CB5 /* ChatUnitView.swift in Sources */,

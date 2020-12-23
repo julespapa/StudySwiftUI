@@ -13,12 +13,15 @@ struct ContentView: View {
     var body: some View {
         
         TabView {
+            
+            ViewLayout()
+                .tabItem { Text("ViewLayout") }
+            
             ChatView()
                 .tabItem { Text("Chat") }
             
             Views()
                 .tabItem { Text("Views") }
-
         }
     }
 }

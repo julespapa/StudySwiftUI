@@ -98,7 +98,6 @@ struct Views: View {
             }
         }
         .padding(.horizontal)
-        .background(Color.yellow)
     }
 }
 
